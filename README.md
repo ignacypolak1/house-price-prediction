@@ -22,7 +22,7 @@ notebook = "==7.0.3"
 2. Install pipenv using the command: "**python -m pip install pipenv**".
 3. Create a virtual environment and install the dependencies using the command: "**pipenv install**", executed in the main project folder.
 4. Open the file model_training.ipynb using Jupyter Notebook, Jupyter Lab, or any environment or software that allows for cell execution. Remember to choose the interpreter from the virtual environment created in the previous step.
-5. Run the cells in the file sequentially. The *kc_house_data.csv* dataset will be analyzed and processed, and based on the extracted data, selected machine learning models will be trained.
+5. Run the cells in the file sequentially. The *kc_house_data.csv* dataset will be analyzed and processed, and based on the extracted data, selected machine learning models will be trained and saved.
 6. Run the last cell - it will launch a simple GUI application that loads the previously saved machine learning model and, based on the features provided in the text fields, will estimate the property price.
 
 ## Sources:
